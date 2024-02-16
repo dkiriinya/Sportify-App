@@ -24,23 +24,23 @@ const Highlights = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:8001/highlights', {
-        method: 'POST',
+      const response = await fetch("http://localhost:8001/HighLights", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({ highlight }),
       });
 
       if (response.ok) {
-        alert('Highlight added to favorites successfully!');
+        alert("Highlight added to favorites successfully!");
         // Optionally, you can update the list of favorite highlights
         setFavoriteHighlights([...favoriteHighlights, highlight]);
       } else {
-        console.error('Failed to add highlight to favorites');
+        console.error("Failed to add highlight to favorites");
       }
     } catch (error) {
-      console.error('Error adding highlight to favorites:', error);
+      console.error("Error adding highlight to favorites:", error);
     }
   };
 
@@ -50,8 +50,8 @@ const Highlights = () => {
     try {
       const response = await fetch(url, {
         headers: {
-          'Accept': 'application/json',
-          'User-Agent': 'Don Gitonga',
+          Accept: "application/json",
+          "User-Agent": "Don Gitonga",
         },
       });
 
@@ -73,7 +73,7 @@ const Highlights = () => {
   const fetchFavoriteHighlights = async () => {
     // Fetch the list of favorite highlights when the component mounts
     try {
-      const response = await fetch("http://localhost:8001/highlights");
+      const response = await fetch("http://localhost:8001/HighLights");
       if (response.ok) {
         const data = await response.json();
         setFavoriteHighlights(data);
@@ -117,7 +117,10 @@ const Highlights = () => {
                 <h5 className="card-title">{highlight.strEvent}</h5>
                 <p className="card-text">League: {highlight.strLeague}</p>
                 <p className="card-text">Date: {highlight.dateEvent}</p>
-                <button className="btn btn-primary" onClick={() => onButtonClick(highlight)}>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => onButtonClick(highlight)}
+                >
                   Add Favorite
                 </button>
               </div>
