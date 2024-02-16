@@ -137,106 +137,24 @@
       "strComplete": null,
       "strLocked": "unlocked",
       "id": 2
-    },
-    {
-      "id": "2098",
-      "idLeague": "4504",
-      "idSoccerXML": null,
-      "idAPIfootball": "783",
-      "strSport": "Soccer",
-      "strLeague": "Coupe de la Ligue",
-      "strLeagueAlternate": "French League Cup",
-      "intDivision": "99",
-      "idCup": "1",
-      "strCurrentSeason": "2019-2020",
-      "intFormedYear": "1994",
-      "dateFirstEvent": "2018-08-14",
-      "strGender": "Male",
-      "strCountry": "France",
-      "strWebsite": "www.lfp.fr/coupeLigue",
-      "strFacebook": "www.facebook.com/CoupeDeLaLigueBKT/",
-      "strInstagram": null,
-      "strTwitter": "twitter.com/CoupeLigueBKT",
-      "strYoutube": "www.youtube.com/CoupedelaLigue?fbclid=IwAR288xJfTFs5sU9afXv6Gy-Xd7h9c80ekGn2PP1jdoLV37l8JhulSUmE8yY",
-      "strRSS": "https://www.lfp.fr/coupeLigue/rss.xml",
-      "strDescriptionEN": "The Coupe de la Ligue, known outside France as the French League Cup, is a knockout cup competition in French football organized by the Ligue de Football Professionnel. The tournament was established in 1993 and, unlike the Coupe de France, is only open to professional clubs in France which play in country's top three football divisions, though only four professional clubs currently play in the Championnat National.\r\n\r\nStrasbourg are the current champions, having defeated Guingamp 4–1 on penalties following a 0–0 draw for a fourth title in the 2018–19 competition.\r\n\r\nThe 2019–20 edition of the tournament will be its last, after the LFP voted to suspend the competition indefinitely to \"reduce the season schedule\".",
-      "strDescriptionDE": null,
-      "strDescriptionFR": null,
-      "strDescriptionIT": null,
-      "strDescriptionCN": null,
-      "strDescriptionJP": null,
-      "strDescriptionRU": null,
-      "strDescriptionES": null,
-      "strDescriptionPT": null,
-      "strDescriptionSE": null,
-      "strDescriptionNL": null,
-      "strDescriptionHU": null,
-      "strDescriptionNO": null,
-      "strDescriptionPL": null,
-      "strDescriptionIL": null,
-      "strTvRights": "US - beIN SPORTS [2018-2024]",
-      "strFanart1": "https://www.thesportsdb.com/images/media/league/fanart/jc1n331554020554.jpg",
-      "strFanart2": "https://www.thesportsdb.com/images/media/league/fanart/pwbnbb1554020616.jpg",
-      "strFanart3": "https://www.thesportsdb.com/images/media/league/fanart/cfq4b21554020699.jpg",
-      "strFanart4": "https://www.thesportsdb.com/images/media/league/fanart/hfx7yz1554020821.jpg",
-      "strBanner": "https://www.thesportsdb.com/images/media/league/banner/zgkdo11554020910.jpg",
-      "strBadge": "https://www.thesportsdb.com/images/media/league/badge/rae4sv1596208538.png",
-      "strLogo": "https://www.thesportsdb.com/images/media/league/logo/k8wdv21554022304.png",
-      "strPoster": "https://www.thesportsdb.com/images/media/league/poster/pcydas1554021300.jpg",
-      "strTrophy": "https://www.thesportsdb.com/images/media/league/trophy/3tdqns1549453252.png",
-      "strNaming": "{strHomeTeam} vs {strAwayTeam}",
-      "strComplete": "yes",
-      "strLocked": "unlocked"
     }
   ],
   "HighLights": [
     {
-      "id": "d979",
       "highlight": {
-        "idEvent": "1949753",
-        "strEvent": "Independiente Rivadavia vs Instituto ACC",
+        "idEvent": "1819318",
+        "strEvent": "Piast Gliwice vs Puszcza Niepołomice",
         "strSport": "Soccer",
-        "idLeague": "5428",
-        "strLeague": "Argentinian Copa de la Liga Profesional",
-        "dateEvent": "2024-02-16",
-        "strVideo": "https://www.youtube.com/watch?v=IEMI3kNb13E",
+        "idLeague": "4422",
+        "strLeague": "Polish Ekstraklasa",
+        "dateEvent": "2024-03-12",
+        "strVideo": "https://www.youtube.com/watch?v=51KZ0Y8Jtog",
         "strPoster": "",
-        "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/8wwzca1707914214.jpg",
+        "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/u5pg9w1687156281.jpg",
         "strFanart": null,
-        "strSeason": "2024"
-      }
-    },
-    {
-      "id": "74ae",
-      "highlight": {
-        "idEvent": "1949754",
-        "strEvent": "Talleres de Cordoba vs Argentinos Juniors",
-        "strSport": "Soccer",
-        "idLeague": "5428",
-        "strLeague": "Argentinian Copa de la Liga Profesional",
-        "dateEvent": "2024-02-16",
-        "strVideo": "https://www.youtube.com/watch?v=LiVsdN3BKFM",
-        "strPoster": "",
-        "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/u5hfl21707914216.jpg",
-        "strFanart": null,
-        "strSeason": "2024"
-      }
-    },
-    {
-      "id": "b7db",
-      "highlight": {
-        "idEvent": "1928867",
-        "strEvent": "Toluca vs CS Herediano",
-        "strSport": "Soccer",
-        "idLeague": "4721",
-        "strLeague": "CONCACAF Champions Cup",
-        "dateEvent": "2024-02-16",
-        "strVideo": "https://www.youtube.com/watch?v=rErDsjWaCy8",
-        "strPoster": "",
-        "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/3h1ogz1706953048.jpg",
-        "strFanart": null,
-        "strSeason": "2024"
-      }
+        "strSeason": "2023-2024"
+      },
+      "id": 1
     }
   ]
 }
