@@ -123,5 +123,22 @@
       "id": 2
     }
   ],
-  "HighLights": []
+  "HighLights": [
+    {
+      "highlight": {
+        "idEvent": "1819318",
+        "strEvent": "Piast Gliwice vs Puszcza Niepołomice",
+        "strSport": "Soccer",
+        "idLeague": "4422",
+        "strLeague": "Polish Ekstraklasa",
+        "dateEvent": "2024-03-12",
+        "strVideo": "https://www.youtube.com/watch?v=51KZ0Y8Jtog",
+        "strPoster": "",
+        "strThumb": "https://www.thesportsdb.com/images/media/event/thumb/u5pg9w1687156281.jpg",
+        "strFanart": null,
+        "strSeason": "2023-2024"
+      },
+      "id": 1
+    }
+  ]
 }
