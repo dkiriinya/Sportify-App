@@ -68,11 +68,34 @@ const Favorites = () => {
   const removeFavoritePlayer = async (playerId) => {
     try {
       // Perform logic to remove player from favorites
+      const isConfirmed = window.confirm('Are you sure you want to remove this player from favorites?');
+  
+      if (!isConfirmed) {
+        // If not confirmed, do nothing
+        return;
+      }
+  
+      const url = `http://localhost:8001/players/${playerId}`; 
+  
+      const response = await fetch(url, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+  
+      if (response.ok) {
+        setFavoritePlayers((prevPlayers) =>
+          prevPlayers.filter((player) => player.id !== playerId)
+        );
+        alert('Player removal process successful');
+      } else {
+        console.error('Failed to remove the player');
+      }
     } catch (error) {
       console.error('Error removing player from favorites:', error);
     }
   };
-
   const removeFavoriteTeam = async (teamId) => {
     try {
       // Perform logic to remove team from favorites
