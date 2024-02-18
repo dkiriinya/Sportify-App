@@ -1,4 +1,3 @@
-// LiveScores.jsx
 import React, { useState, useEffect } from "react";
 import Pagination from "./Pagination";
 
@@ -6,7 +5,7 @@ export default function LiveScores() {
   const [liveScores, setLiveScores] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const scoresPerPage = 5; // Adjust the number of scores to display per page as needed
+  const scoresPerPage = 5; 
 
   useEffect(() => {
     const fetchData = async () => {
