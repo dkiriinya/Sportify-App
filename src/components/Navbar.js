@@ -45,20 +45,22 @@ const Navbar = () => {
             <div
               className="dropdown-menu"
               aria-labelledby="navbarDropdownMenuLink"
+              style={{ backgroundColor: 'black'}}
+              
             >
-              <Link className="dropdown-item" to="/favorites/leagues">
+              <Link className="dropdown-item white-text" to="/favorites/leagues">
                  Favorite Leagues
               </Link>
-              <Link className="dropdown-item" to="/favorites/teams">
+              <Link className="dropdown-item white-text" to="/favorites/teams">
                 Favorite Teams
               </Link>
-              <Link className="dropdown-item" to="/favorites/players">
+              <Link className="dropdown-item white-text" to="/favorites/players">
                 Favorite Players
               </Link>
-              <Link className="dropdown-item" to="/favorites/events">
+              <Link className="dropdown-item white-text" to="/favorites/events">
                 Favorite Events
               </Link>
-              <Link className="dropdown-item" to="/favorites/highlights">
+              <Link className="dropdown-item white-text" to="/favorites/highlights">
                 Favorite Highlights
               </Link>
             </div>
