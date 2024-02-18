@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ color: 'black' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <Link className="navbar-brand" to="/">
         Sportify
       </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse navbar-dark bg-dark" id="navbarNavDropdown" style={{ color: 'black' }}>
+      <div className="collapse navbar-collapse navbar-dark bg-dark" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className="nav-link" to="/Events">
