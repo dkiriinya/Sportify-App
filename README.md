@@ -41,7 +41,6 @@ Sportify is an innovative sports application designed to enhance your sports exp
 
 ## Technologies Used
 
-- Node.js
 - Bootstrap
 - HTML & CSS
 - JavaScript
